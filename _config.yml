@@ -83,7 +83,7 @@ content:
               - 외부 리소스 요청과 트랜잭션 로직 분리를 통해 connection Timeout 방지 및 수행 속도 개선
 
               - 외부 API 호출 시 HttpUrlConnection → FeignClient로 전환하여 **코드 가독성 및 성능 향상**
-      <br>
+            <br>
 
       - title: 아이티아이즈 채용서비스 배포
       - sub_title: 클라우드 환경에서 3tier 아키텍처로 웹 서비스 구성
