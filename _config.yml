@@ -1,0 +1,113 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 윤 성 철
+title: Backend Developer
+email: proattacker641@gmail.com
+website: www.github.com/sungchulyun
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  sungchulyun
+
+# Additional icon links
+additional_links:
+- title: sung_c.velog
+  icon: fas fa-globe
+  url: https://velog.io/@sung_c/posts
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  안녕하세요, 신입 백엔드 개발자 윤성철입니다.
+  메타인지를 통해 매일 스스로를 되돌아보며 부족한 점을 채워나가고 있습니다.
+  '기억보단 기록을'라는 말을 새기고, 기록이 곧 자산이라고 생각해, 히스토리 정리를 습관화하고 있습니다.
+content :
+    -title : 기술 스택
+    content :
+    -프레임워크 - <mark>springboot</mark>
+    -언어 - <mark>Java 8/11/17
+    -웹 서버 - <mark>Nginx</mark>
+    -웹 애플리케이션 서버 - <mark>Tomcat</mark>
+    -Devops -Jenkins, Docker
+    -DB(Hibernate) - MYSQL, Mybatis, JPA, QueryDSL
+    -기타 - Github, GitLab, Swagger, Notion
+
+content:
+  - title: 회사 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 아이티아이즈
+        link: www.iteyes.co.kr
+        sub_title: Developer
+        caption : 2024.01 ~ 현재
+        description : 금융 SI 프로젝트에 참여해 개발하고 있습니다.
+
+  - title: 경력사항 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 조각투자 블록체인 연계 인터페이스 개발
+        #link: 
+        # link_text: boringcompany.com
+        sub_title: Server To Server Open API 설계 및 개발
+        caption: 2024.05 ~ 2024.07
+        description: STO 토큰 배정 및 블록체인 지갑 Restful API 개발
+
+      - title: 아이티아이즈 채용서비스 배포
+      -sub_title : 클라우드 환경에서 3tier 아키텍처로 웹 서비스 구성
+      caption: 2024.03 ~ 2024.04
+      description : 웹 서버 프록시를 통한 Tomcat 서버 연동
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 삼육대학교 컴퓨터메카트로닉스 공학부
+        caption: 2016.03 - 2023.02
+        sub_title: 컴퓨터 공학부
+        description: DATABASE, OS, Linux, 알고리즘, 컴퓨터 네트워크 등 컴퓨터 공학 지식을 습득했습니다.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Rock climbing
+      - Gaming
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
