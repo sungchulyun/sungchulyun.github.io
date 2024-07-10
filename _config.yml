@@ -41,58 +41,92 @@ about_content: | # this will include new lines to allow paragraphs
   '기억보단 기록을'라는 말을 새기고, 기록이 곧 자산이라고 생각해, 히스토리 정리를 습관화하고 있습니다.
 description: |
       기술 스택 :
-      - 프레임워크 - <mark>springboot</mark>
-      - 언어 - <mark>Java 8/11/17
-      - 웹 서버 - <mark>Nginx</mark>
-      - 웹 애플리케이션 서버 - <mark>Tomcat</mark>
-      - Devops -Jenkins, Docker
-      - DB(Hibernate) - MYSQL, Mybatis, JPA, QueryDSL
-      - 기타 - Github, GitLab, Swagger, Notion
+        - 프레임워크 - <mark>springboot</mark>
+        - 언어 - <mark>Java 8/11/17
+        - 웹 서버 - <mark>Nginx</mark>
+        - 웹 애플리케이션 서버 - <mark>Tomcat</mark>
+        - Devops -Jenkins, Docker
+        - DB(Hibernate) - MYSQL, Mybatis, JPA, QueryDSL
+        - 기타 - Github, GitLab, Swagger, Notion
 
-content:
-  - title: 회사 # Title for the section
-    layout: list # Type of content section (list/text)
+ content:
+  #경력
+  - title: 경력 사항
+    layout: list
     content:
       - layout: left
-        title: 아이티아이즈
-        link: www.iteyes.co.kr
-        sub_title: Developer
+        title: (주)아이티아이즈
+        sub_title: Fintech 본부 솔루션사업부
         caption: 2024.01 ~ 현재
+        #        link: Link to company (optional)
         quote: >
-              연매출 600억의 금융 SI 기업
-        description : |
-            금융 SI 프로젝트에 참여해 개발하고 있습니다.
-content:
-  - title: 경력사항 # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: 조각투자 블록체인 연계 인터페이스 개발
-        #link: 
-        # link_text: boringcompany.com
-        sub_title: Server To Server Open API 설계 및 개발
-        caption: 2024.05 ~ 2024.07
-        description: |
-            - **STO 토큰 배정 및 블록체인 지갑 생성, 폐기, 조회 Restful API 개발**
-
-            -**레거시 코드 개선**
+          연매출 600억의 금융 SI 기업
+        description: | # this will include new lines to allow paragraphs
+          **조각투자 블록체인 연계 API 개발 (2024.04 ~ 2024.06)**
+          
+            기술 스택 : `Java17`, `SpringBoot`, `MyBatis`, `MariaDB`          
+          
+          -**레거시 코드 개선**
               - 단건 쿼리 → Batch Bulk Update로 전환하여 10,000건 기준, 11.04 → 4.37초로 성능 개선
               
               - 외부 리소스 요청과 트랜잭션 로직 분리를 통해 connection Timeout 방지 및 수행 속도 개선
 
               - 외부 API 호출 시 HttpUrlConnection → FeignClient로 전환하여 **코드 가독성 및 성능 향상**
             <br>
+              
+          **아이티아이즈 채용서비스 배포 (2024.03 ~ 2024.04)**
+          
+            -**클라우드 환경에서 인프라 설계 및 구성**
+              - Load Balancer, NAT Gateway, VPC, Subnet 대역폭 등 Naver Cloud 환경 구성
 
-      - title: 아이티아이즈 채용서비스 배포
-      - sub_title: 클라우드 환경에서 3tier 아키텍처로 웹 서비스 구성
-      caption: 2024.03 ~ 2024.04
-      description: |
-          -**인프라 설계 및 구성 **
-            - Load Balancer, NAT Gateway, VPC, Subnet 대역폭 등 Naver Cloud 환경 구성
-            - 프록시를 통한 웹 서버 - WAS 서버 연동
-            - Jenkis, Gitlab을 활용해 CI/CD 서버 구축
-            - Tomcat 로그 커스터마이징 및 logroate를 통한 로그 운영 최적화
+              - 프록시를 통한 웹 서버 - WAS 서버 연동
+
+              - Jenkis, Gitlab을 활용해 CI/CD 서버 구축
+
+              - Tomcat 로그 커스터마이징 및 logroate를 통한 로그 운영 최적화
+            <br>  
             
+ #프로젝트
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Daily-Mission
+        caption: 2023.05 ~ 진행중
+        link: https://github.com/sungchulyun/Daily-mission
+        link_text: https://github.com/sungchulyun/Daily-mission
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: https://github.com/sungchulyun/Daily-mission
+#          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#            icon: fab fa-github
+#            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          체계적으로 관리가 이루어질 수 있는 일일 미션 인증 프로젝트
+          프론트 1명, 백엔드 1명으로 구성되어 개발 중
+        description: | # this will include new lines to allow paragraphs
+          
+           기술 스택 : 
+          `JAVA 17`, `SpringBoot 3.0`, `Spring Security`, 'OAuth 2.0', 'JWT', 'Spring-Batch'
+          `MariaDB`, `QueryDSL`, `Spring Data JPA', 'Redis' <br>
+          배포 : `AWS ECS`, `AWS ECR`, `github Action`,`Docker` <br>
+          
+          개발 내용 :
+          - OAuth2, JWT, Spring Security를 활용한 **인증, 인가 개발**
+              - **Cookie의 JWT토큰을 검증** 후 SuccessHandler를 통한 인증 구현
+              - **Role 권한에 따른 @PreAuthorize를 통한 인가** 구현
+
+          - Redis를 통한 **Local Cache 구현**
+              - 변동사항이 적은 전체 미션 조회 API 데이터에 대한 **Cacheing 처리로 성능 개선**
+
+          - QueryDSL을 통한 **동적 쿼리 처리**
+              - 변동 사항이 많은 검색/정렬 조건을 처리하기 위해 도입해 **확장성 향상**
+
+          -Spring Batch와 Scheduler를 활용한 배치 처리
+              - 매일 03시에 스케줄러를 통해 수행하여 **관리 자동화**
 
 
   - title: Education # Title for the section
@@ -103,18 +137,6 @@ content:
         caption: 2016.03 - 2023.02
         sub_title: 컴퓨터 공학부
         description: DATABASE, OS, Linux, 알고리즘, 컴퓨터 네트워크 등 컴퓨터 공학 지식을 습득했습니다.
-
-  - title: Project
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
