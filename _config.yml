@@ -39,9 +39,8 @@ about_content: | # this will include new lines to allow paragraphs
   안녕하세요, 신입 백엔드 개발자 윤성철입니다.
   메타인지를 통해 매일 스스로를 되돌아보며 부족한 점을 채워나가고 있습니다.
   '기억보단 기록을'라는 말을 새기고, 기록이 곧 자산이라고 생각해, 히스토리 정리를 습관화하고 있습니다.
-content:
-    -title: 기술 스택
-    content:
+description:
+    기술 스택 : 
     -프레임워크 - <mark>springboot</mark>
     -언어 - <mark>Java 8/11/17
     -웹 서버 - <mark>Nginx</mark>
