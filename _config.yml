@@ -63,7 +63,7 @@ content:
         quote: >
               연매출 600억의 금융 SI 기업
         description : |
-        금융 SI 프로젝트에 참여해 개발하고 있습니다.
+            금융 SI 프로젝트에 참여해 개발하고 있습니다.
 
   - title: 경력사항 # Title for the section
     layout: list # Type of content section (list/text)
