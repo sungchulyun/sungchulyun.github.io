@@ -9,8 +9,7 @@ version: 2
 name: 윤 성 철
 title: Backend Developer
 email: proattacker641@gmail.com
-blog : https://velog.io/@sung_c/posts
-github : https://github.com/sungchulyun
+website : https://velog.io/@sung_c/posts
 #website: www.github.com/sungchulyun
 
 # Dark Mode (true/false/never)
@@ -38,40 +37,18 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요, 신입 개발자 윤성철입니다.
+  안녕하세요, 개발자 윤성철입니다.
   
-  **3가지의 유형**으로 저는 어떤 사람인지 소개하겠습니다.
-  <br>
+  레퍼런스와 강의를 통해 <mark>습득한 내용을 접목하는 것</mark>으로, 성장을 추구하기 위해 사이드 프로젝트를 기획했습니다.
+  그래서 퇴근 이후, '일일 미션' 인증 프로젝트을 개발하고 있습니다.
   
-  - 첫 번째, **계획을 실행에 옮기는 사람**입니다.
-  <br>
-    - 성장을 위해 서비스를 운영하면서 겪는 경험을 하기 위해, 
-  <br>
-      일일 미션을 인증하는 사이드 프로젝트를 기획해 퇴근 이후 개발하고 있습니다.
+  Tomcat, Nginx 등 미들웨어를 설치하면서, 가이드가 있으면 동료의 업무 부담을 줄여줄 수 있을 것이라 생각했습니다.
+  이러한 생각으로, 가이드를 제작하기 시작하여 <mark>총 10개의 가이드를 공유해</mark> 팀에 도움이 될 수 있었습니다.
   
-  - 두 번째, **주도적인 사람**입니다.
+  모르는 것을 두려워하기보다, <mark>채우는 것에 집중</mark>하고 있습니다.
+  입사 후 7개월동안 3편의 강의를 수료, 3권의 서적을 읽었으며, 관련하여 약 25개의 글을 블로그에 포스팅하였습니다.
   <br>
-    - 근무하면서 업무와 관련해 13개 가이드를 제작, 공유했습니다.
-  <br>
-      더 나아가, 의견 제안을 통해 반복되는 과정과 이슈를 공유하는 문화를 정립했습니다.
-  
-  - 세 번째, **사람들과 커뮤니케이션 하는 것을 좋아하는 사람**입니다.
-  <br>
-    - 학부 시절에는 동아리 활동, 상임대위원 활동 경험을 했습니다.
-  <br>
-      입사 후에는 개발 동호회에서 스터디를 수행하고, 정기 모임을 통해 기술 관련 토크를 이어나가고 있습니다.
 
-  기술 스택 :
-  <br>
-        - 프레임워크 : `Springboot`
-        <br>
-        - 언어 : `Java 8/11/17`
-        <br>
-        - Devops : `Github Action`, `Docker`
-        <br>
-        - DB(Hibernate) : `MariaDB`, `Mybatis`, `JPA`, `QueryDSL`
-        <br>
-        - 기타 : `Github`, `GitLab`, `Swagger`, `Notion`
 content:
   #경력
   - title: Career
@@ -85,50 +62,65 @@ content:
         quote: >
           연매출 600억의 금융 SI 기업
         description: | # this will include new lines to allow paragraphs
-          **우리은행 IFRS 재무정보시스템 노후 인프라 교체 프로젝트 투입(2024.07 ~ 현재)**
+          **우리은행 IFRS 재무회계시스템 노후 인프라 교체 프로젝트 투입(2024.07 ~ 현재)**
           
            기술 스택 : `NEXACRO`, `SpringBoot`, `MyBatis`, `Oracle`          
           
           - **보고서 개발**
           
+            - 재무회계시스템의 공시, 지분투자, 등 관련 문서를 출력하는 기능을 개발하고 있습니다.
+          
            <br>
           
-          **조각투자 블록체인 연계 API 개발 (2024.04 ~ 2024.06)**
+          - **조각투자 블록체인 연계 API 개발 (2024.04 ~ 2024.06)**
           
             기술 스택 : `Java17`, `SpringBoot`, `MyBatis`, `MariaDB`          
           
-          - **레거시 코드 개선**
+            - 단건 쿼리 → Batch Bulk Update로 전환하여 10,000건 기준, **11.04 → 4.37초로 성능 개선**
           
-              - 단건 쿼리 → Batch Bulk Update로 전환하여 10,000건 기준, **11.04 → 4.37초로 성능 개선**
-          
-              - 외부 리소스 요청과 트랜잭션 로직 분리를 통해 **connection Timeout 방지 및 수행 속도 개선**
+            - 외부 리소스 요청과 트랜잭션 로직 분리를 통해 **connection Timeout 방지 및 수행 속도 개선**
 
-              - 외부 API 호출 시 HttpUrlConnection → FeignClient로 전환하여 **코드 가독성 및 성능 향상**
+            - 외부 API 호출 시 HttpUrlConnection → FeignClient로 전환하여 **코드 가독성 및 성능 향상**
           
             <br>
           
-          **아이티아이즈 채용서비스 배포 (2024.03 ~ 2024.04)**
+          - **아이티아이즈 채용서비스 배포 (2024.03 ~ 2024.04)**
           
-            - **클라우드 환경에서 인프라 설계 및 구성**
+            - Load Balancer, NAT Gateway, VPC, Subnet 대역폭 등 **Naver Cloud 환경 구성**
           
-              - Load Balancer, NAT Gateway, VPC, Subnet 대역폭 등 **Naver Cloud 환경 구성**
-
-              - **프록시**를 통한 웹 서버 - WAS 서버 연동
-
-              - Jenkins, Gitlab을 활용해 **CI/CD 서버 구축**
+            - **프록시**를 통한 웹 서버 - WAS 서버 연동
+          
+            - Jenkins, Gitlab을 활용해 **CI/CD 서버 구축**
           
           <br>
           
-          **아이티아이즈 클라우드센터(2024.02 ~ 2024.04)**
+          - **MSP 운영 보조 업무**
           
-            - **MSP 운영 보조 업무**
+            - 고객사 사이트의 서버 정기점검
           
-              - 고객사 사이트의 서버 정기점검 수행
+            - 서버 인스턴스의 블록 스토리즈 증설 작업 수행
           
-              - 서버 인스턴스의 블록 스토리즈 증설 작업 수행
-        
             <br>  
-
+  - title: Skill # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Backend
+        sub_title:
+        description: |
+          - Java
+          - Spring Boot, Spring Security, Spring Batch, Spring Data JPA/Redis, Spring MVC
+          - JPA, QueryDSL, Hibernate
+          - Gradle, Maven
+          - IntelliJ, Eclipse
+      - layout: left
+        title: DevOps
+        sub_title:
+        description: |
+          - MySQL, MariaDB
+          - AWS RDS, EC2, S3
+          - Nginx, Tomcat
+          - Linux, Centos
   #프로젝트
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -138,25 +130,24 @@ content:
         # other value (or no value) means no border will be displayed
         title: Daily-Mission
         caption: 2023.05 ~ 진행중
-        link: https://github.com/sungchulyun/Daily-mission
-        link_text: https://github.com/sungchulyun/Daily-mission
+        link: https://github.com/sungchulyun/Daily-mission_BE
+        link_text: https://github.com/sungchulyun/Daily-mission_BE
         additional_links:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
-            url: https://github.com/sungchulyun/Daily-mission
+            url: https://github.com/sungchulyun/Daily-mission_BE
         #          - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #            icon: fab fa-github
         #            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          체계적으로 관리가 이루어질 수 있는 일일 미션 인증 프로젝트 <br>
-          프론트 1명, 백엔드 1명으로 구성되어 개발 중
+          일일 미션 인증 프로젝트 <br>
+          프론트 1명, 백엔드 1명으로 구성되어 백엔드 개발 중
         description: | # this will include new lines to allow paragraphs
           
           기술 스택 :
-          - Back-end : `JAVA 17`, `SpringBoot 3.0`, `Spring Security`, `Spring Data JPA`
+          - Backend : `Java`, `SpringBoot`, `Spring Security`, `Spring Data JPA`, `Spring Batch`
           - DB : `AWS RDS(MariaDB)`, `QueryDSL`, `Redis`
           - Infra : `Docker`, `Github-Action`, `AWS EC2`, `AWS S3`
-          - Batch : `Spring Batch`
           <br>
         
           개발 내용 :
@@ -175,6 +166,8 @@ content:
           <br>          
           - 예외 처리 전략을 통한 **공통 exception 처리 구현**
             - **서비스 개발의 일관성 및 코드 명확성** 향상
+          <br>
+          - SSL 인증서 적용으로 **보안성 향상**
           <br>
 #교육
   - title: Education # Title for the section
