@@ -40,7 +40,7 @@ about_content: | # this will include new lines to allow paragraphs
   안녕하세요, 개발자 윤성철입니다.
   
   레퍼런스와 강의를 통해 <mark>습득한 내용을 접목하는 것</mark>으로, 성장을 추구하기 위해 사이드 프로젝트를 기획했습니다.
-  그래서 퇴근 이후, '일일 미션' 인증 프로젝트을 개발하고 있습니다.
+  그래서 퇴근 이후, '일일 미션' 인증 프로젝트를 개발하고 있습니다.
   
   Tomcat, Nginx 등 미들웨어를 설치하면서, 가이드가 있으면 동료의 업무 부담을 줄여줄 수 있을 것이라 생각했습니다.
   이러한 생각으로, 가이드를 제작하기 시작하여 <mark>총 10개의 가이드를 공유해</mark> 팀에 도움이 될 수 있었습니다.
@@ -62,7 +62,7 @@ content:
         quote: >
           연매출 600억의 금융 SI 기업
         description: | # this will include new lines to allow paragraphs
-          **우리은행 IFRS 재무회계시스템 노후 인프라 교체 프로젝트 투입(2024.07 ~ 현재)**
+          - **우리은행 IFRS 재무회계시스템 노후 인프라 교체 프로젝트 투입(2024.07 ~ 현재)**
           
            기술 스택 : `NEXACRO`, `SpringBoot`, `MyBatis`, `Oracle`          
           
