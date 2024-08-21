@@ -9,7 +9,7 @@ version: 2
 name: 윤 성 철
 title: Backend Developer
 email: proattacker641@gmail.com
-website : https://velog.io/@sung_c/posts
+website : velog.io/@sung_c/posts
 #website: www.github.com/sungchulyun
 
 # Dark Mode (true/false/never)
@@ -22,7 +22,7 @@ github_username: sungchulyun
 additional_links:
 - title: sung_c.velog
   icon: fas fa-globe
-  url: https://velog.io/@sung_c/posts
+  url: velog.io/@sung_c/posts
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -40,13 +40,13 @@ about_content: | # this will include new lines to allow paragraphs
   안녕하세요, 개발자 윤성철입니다.
   
   레퍼런스와 강의를 통해 <mark>습득한 내용을 접목하는 것</mark>으로, 성장을 추구하기 위해 사이드 프로젝트를 기획했습니다.
-  그래서 퇴근 이후, '일일 미션' 인증 프로젝트을 개발하고 있습니다.
+  그래서 퇴근 이후, '일일 미션' 인증 프로젝트를 개발하고 있습니다.
   
   Tomcat, Nginx 등 미들웨어를 설치하면서, 가이드가 있으면 동료의 업무 부담을 줄여줄 수 있을 것이라 생각했습니다.
   이러한 생각으로, 가이드를 제작하기 시작하여 <mark>총 10개의 가이드를 공유해</mark> 팀에 도움이 될 수 있었습니다.
   
   모르는 것을 두려워하기보다, <mark>채우는 것에 집중</mark>하고 있습니다.
-  입사 후 7개월동안 3편의 강의를 수료, 3권의 서적을 읽었으며, 관련하여 약 25개의 글을 블로그에 포스팅하였습니다.
+  입사 후 7개월동안 3편의 강의를 수료, 3권의 서적을 읽었으며, 관련하여 약 20개의 글을 블로그에 포스팅하였습니다.
   <br>
 
 content:
@@ -62,7 +62,7 @@ content:
         quote: >
           연매출 600억의 금융 SI 기업
         description: | # this will include new lines to allow paragraphs
-          **우리은행 IFRS 재무회계시스템 노후 인프라 교체 프로젝트 투입(2024.07 ~ 현재)**
+          - **우리은행 IFRS 재무회계시스템 노후 인프라 교체 프로젝트 투입(2024.07 ~ 현재)**
           
            기술 스택 : `NEXACRO`, `SpringBoot`, `MyBatis`, `Oracle`          
           
@@ -72,7 +72,7 @@ content:
           
            <br>
           
-          - **조각투자 블록체인 연계 API 개발 (2024.04 ~ 2024.06)**
+          - **조각투자 플랫폼 블록체인 연계 API 개발 (2024.04 ~ 2024.06)**
           
             기술 스택 : `Java17`, `SpringBoot`, `MyBatis`, `MariaDB`          
           
@@ -147,7 +147,7 @@ content:
           기술 스택 :
           - Backend : `Java`, `SpringBoot`, `Spring Security`, `Spring Data JPA`, `Spring Batch`
           - DB : `AWS RDS(MariaDB)`, `QueryDSL`, `Redis`
-          - Infra : `Docker`, `Github-Action`, `AWS EC2`, `AWS S3`
+          - Infra : `Docker`, `Github-Action`, `AWS EC2`, `AWS S3`, `AWS ROUTE 53`
           <br>
         
           개발 내용 :
@@ -166,6 +166,8 @@ content:
           <br>          
           - 예외 처리 전략을 통한 **공통 exception 처리 구현**
             - **서비스 개발의 일관성 및 코드 명확성** 향상
+          <br>
+          - Github-Action, Docker를 활용한 CI/CD 환경 구축
           <br>
           - SSL 인증서 적용으로 **보안성 향상**
           <br>
