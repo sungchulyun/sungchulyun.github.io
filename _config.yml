@@ -46,7 +46,7 @@ about_content: | # this will include new lines to allow paragraphs
   이러한 생각으로, 가이드를 제작하기 시작하여 <mark>총 10개의 가이드를 공유해</mark> 팀에 도움이 될 수 있었습니다.
   
   모르는 것을 두려워하기보다, <mark>채우는 것에 집중</mark>하고 있습니다.
-  입사 후 7개월동안 3편의 강의를 수료, 3권의 서적을 읽었으며, 관련하여 약 20개의 글을 블로그에 포스팅하였습니다.
+  입사 후 7개월동안 3편의 강의를 수료, 3권의 서적을 읽었으며, 관련하여 약 25개의 글을 블로그에 포스팅하였습니다.
   <br>
 
 content:
@@ -153,24 +153,20 @@ content:
           개발 내용 :
           
           - OAuth2, JWT, Spring Security를 활용한 **인증, 인가 개발**
-             - **필터를 커스텀하여** 인증, 인가 구현
             <br>
           - Redis를 통한 **Local Cache 구현**
-             - 변동사항이 적은 전체 미션 조회 API 데이터에 대한 **Cacheing 처리로 성능 개선**
           <br>
-          - QueryDSL을 통한 **동적 쿼리 처리**
-             - 변동 사항이 많은 검색/정렬 조건을 처리하기 위해 도입해 **확장성 향상**
+          - QueryDSL을 통한 **동적 쿼리 처리** (생성자 Projection 활용)
           <br>          
           - Spring Batch와 Scheduler를 활용한 **배치 처리**
-             - 매일 03시에 스케줄러를 통해 수행하여 **관리 자동화**
           <br>          
           - 예외 처리 전략을 통한 **공통 exception 처리 구현**
-            - **서비스 개발의 일관성 및 코드 명확성** 향상
           <br>
-          - Github-Action, Docker를 활용한 CI/CD 환경 구축
+          - Github-Action, Docker를 활용한 **CI/CD 환경 구축**
           <br>
-          - SSL 인증서 적용으로 **보안성 향상**
+          - SSL 인증서 적용
           <br>
+          - Junit, Mockito를 활용한 **단위 테스트 코드 작성**
 #교육
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
