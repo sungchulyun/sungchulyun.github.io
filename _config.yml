@@ -42,11 +42,12 @@ about_content: | # this will include new lines to allow paragraphs
   레퍼런스와 강의를 통해 <mark>습득한 내용을 접목하는 것</mark>으로, 성장을 추구하기 위해 사이드 프로젝트를 기획했습니다.
   그래서 퇴근 이후, '일일 미션' 인증 프로젝트를 개발하고 있습니다.
   
-  Tomcat, Nginx 등 미들웨어를 설치하면서, 가이드가 있으면 동료의 업무 부담을 줄여줄 수 있을 것이라 생각했습니다.
-  이러한 생각으로, 가이드를 제작하기 시작하여 <mark>총 10개의 가이드를 공유해</mark> 팀에 도움이 될 수 있었습니다.
+  조직 전체의 생산성 향상을 위해 문서화 하여 공유합니다. 
+  특히, Tomcat, Nginx와 같은 인프라 업무를 하는 3달 간 트러블 슈팅 가이드를  총 10건을 작성하여 공유한 적이 있습니다
   
   모르는 것을 두려워하기보다, <mark>채우는 것에 집중</mark>하고 있습니다.
-  입사 후 7개월동안 3편의 강의를 수료, 3권의 서적을 읽었으며, 관련하여 약 25개의 글을 블로그에 포스팅하였습니다.
+  프로젝트 수행 간 학습하고 적용하여 관련한 25개의 글을 블로그에 포스팅하였습니다.
+  현재는 자바 코드를 작성하면서, 올바른 방향성을 확립하기 위해 '이펙티브 자바'를 탐독중입니다.
   <br>
 
 content:
@@ -183,7 +184,7 @@ content:
           - 2021년 삼육대학교 창업오디션 최우수상
 
 #자격 사항
-  - title: License # Title for the section
+  - title: Certificate # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
