@@ -63,43 +63,22 @@ content:
         quote: >
           연매출 600억의 금융 SI 기업
         description: | # this will include new lines to allow paragraphs
-          - **우리은행 IFRS 재무회계시스템 노후 인프라 교체 프로젝트 투입(2024.07 ~ 현재)**
           
-           기술 스택 : `NEXACRO`, `SpringBoot`, `MyBatis`, `Oracle`          
+          - **우리은행 IFRS 재무회계시스템 노후 인프라 교체 프로젝트(2024.07 ~ 09)**
           
-          - **보고서 개발**
+            기술 스택 : `NEXACRO`, `SpringBoot`, `MyBatis`, `Oracle`        
           
-            - 재무회계시스템의 공시, 지분투자, 등 관련 문서를 출력하는 기능을 개발하고 있습니다.
-          
-           <br>
+            - 공시, 지분투자 등 보고서 화면 개발
           
           - **조각투자 플랫폼 블록체인 연계 API 개발 (2024.04 ~ 2024.06)**
           
-            기술 스택 : `Java17`, `SpringBoot`, `MyBatis`, `MariaDB`          
+            기술 스택 : `Java17`, `SpringBoot`, `MyBatis`, `MariaDB`    
           
-            - 단건 쿼리 → Batch Bulk Update로 전환하여 10,000건 기준, **11.04 → 4.37초로 성능 개선**
+            - 토큰 지갑 생성, 조회, 폐기 및 토큰 배정 API 개발
           
-            - 외부 리소스 요청과 트랜잭션 로직 분리를 통해 **connection Timeout 방지 및 수행 속도 개선**
-
-            - 외부 API 호출 시 HttpUrlConnection → FeignClient로 전환하여 **코드 가독성 및 성능 향상**
+          - **아이티아이즈 채용서비스 구축 (2024.03 ~ 2024.04)**
           
-            <br>
-          
-          - **아이티아이즈 채용서비스 배포 (2024.03 ~ 2024.04)**
-          
-            - Load Balancer, NAT Gateway, VPC, Subnet 대역폭 등 **Naver Cloud 환경 구성**
-          
-            - **프록시**를 통한 웹 서버 - WAS 서버 연동
-          
-            - Jenkins, Gitlab을 활용해 **CI/CD 서버 구축**
-          
-          <br>
-          
-          - **MSP 운영 보조 업무**
-          
-            - 고객사 사이트의 서버 정기점검
-          
-            - 서버 인스턴스의 블록 스토리즈 증설 작업 수행
+            - Naver Cloud 환경에서 인프라 구축 및 3tier(WEB-WAS-DB) 아키텍처 구성
           
             <br>  
   - title: Skill # Title for the section
@@ -152,42 +131,54 @@ content:
           <br>
         
           개발 내용 :
+          - OAuth2, JWT, Spring Security를 활용한 인증, 인가 개발
+          - Spring Batch와 Scheduler를 사용하여 미션 종료 및 강제 퇴장 기능 구현
+          - AWS S3 & PresignedUrl을 통한 파일 업로드 기능 구현
+          - 백엔드 전체 api 개발
           
-          - OAuth2, JWT, Spring Security를 활용한 **인증, 인가 개발**
-            <br>
-          - Redis를 통한 **Local Cache 구현**
-          <br>
-          - QueryDSL을 통한 **동적 쿼리 처리** (생성자 Projection 활용)
-          <br>          
-          - Spring Batch와 Scheduler를 활용한 **배치 처리**
-          <br>          
-          - 예외 처리 전략을 통한 **공통 exception 처리 구현**
-          <br>
-          - Github-Action, Docker를 활용한 **CI/CD 환경 구축**
-          <br>
-          - SSL 인증서 적용
-          <br>
-          - Junit, Mockito를 활용한 **단위 테스트 코드 작성**
+          주요 경험 : 
+          - Builder 패턴 및 정적 팩토리 메서드 적용 : 코드 가독성, 유연성 증대
+          - Junit & Mockito를 활용한 단위 테스트 작성
+          - AWS Route53와 도메인 매핑을 통한 서비스 배포 및 SSL 인증 적용
+          - Github-Actions를 사용해 CI/CD 환경 구축
 #교육
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-left
         title: 삼육대학교
+        sub_title: 컴퓨터메카트로닉스 공학 전공
         caption: 2016.03 - 2023.02
-        sub_title:
         description: |
-          - 컴퓨터 메카트로닉스 공학부 졸업
-          - 학점 3.69 / 4.5
-          - 2022년 SW 프로젝트 경진대회 최우수상
-          - 2021년 한이음 ICT 프로보노 공모전 동상
-          - 2021년 삼육대학교 창업오디션 최우수상
+          
+          학점 : 3.69 / 4.5
+          성적 우수 장학금 3회 및 성적 향상 장학금 수혜
+
+  #수상
+  - title: Awards # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: list
+        title: 삼육대학교 SW 프로젝트 경진대회
+        caption: 2022.09.27
+        sub_title: 최우수상
+
+      - layout: list
+        title: 한이음 ICT 프로보노 공모전
+        caption: 2021.12.02
+        sub_title: 동상 (한국정보방송통신대연합회장상)
+
+      - layout: list
+        title: 삼육대학교 창업오디션 Su-StartUp
+        caption: 2021.12.01
+        sub_title: 최우수상
+
 
 #자격 사항
   - title: Certificate # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: list
         title: 정보처리기사
         caption: 2023.06.09
           <br>
