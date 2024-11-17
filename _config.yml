@@ -138,11 +138,11 @@ content:
           - OAuth2, JWT, Spring Security를 활용한 인증, 인가 개발
           - Spring Batch와 Scheduler를 사용하여 미션 종료 및 강제 퇴장 기능 구현
           - AWS S3 & PresignedUrl을 통한 파일 업로드 기능 구현
-          - 백엔드 전체 api 개발
           
           주요 경험 : 
           - Builder 패턴 및 정적 팩토리 메서드 적용 : 코드 가독성, 유연성 증대
           - Junit & Mockito를 활용한 단위 테스트 작성
+          - Test Container를 사용한 통합 테스트 수행
           - AWS Route53와 도메인 매핑을 통한 서비스 배포 및 SSL 인증 적용
           - Github-Actions를 사용해 CI/CD 환경 구축
 #교육
