@@ -36,16 +36,17 @@ additional_links:
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: | 
   안녕하세요, 개발자 윤성철입니다.
   
   레퍼런스와 강의를 통해 <mark>습득한 내용을 접목하는 것</mark>으로, 성장을 추구하기 위해 사이드 프로젝트를 기획했습니다.
   그래서 퇴근 이후, '일일 미션' 인증 프로젝트를 개발하고 있습니다.
   
   조직 전체의 생산성 향상을 위해 <mark>문서화 하여 공유</mark>합니다. 
-  특히, Tomcat, Nginx와 같은 인프라 업무를 하는 3달 간 트러블 슈팅 가이드를 총 10건을 작성하여 공유한 적이 있습니다
+  특히, Tomcat, Nginx와 같은 인프라 업무를 하는 3달 간 트러블 슈팅 가이드를 총 10건을 작성하여 공유한 적이 있습니다.
   
-  모르는 것을 두려워하기보다, <mark>채우는 것에 집중</mark>하고 있습니다.
+#  모르는 것을 두려워하기보다, <mark>채우는 것에 집중</mark>하고 있습니다.
+  기술을 단순히 적용해보는 것을 넘어, <mark>깊이있게 학습</mark>하는데 집중하고 있습니다.
   프로젝트 수행 간 학습하고 적용하여 관련한 30개의 글을 블로그에 포스팅하였습니다.
   현재는 `Spring Batch`를 깊이 있게 학습하고 있습니다.
   <br>
@@ -59,10 +60,9 @@ content:
         title: (주)아이티아이즈
         sub_title: Fintech 본부 솔루션사업부
         caption: 2024.01 ~ 현재
-        #        link: Link to company (optional)
         quote: >
           연매출 600억의 금융 SI 기업
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           
           **국채 거래 솔루션 유지보수(2024.10 ~ 현재)**
           
@@ -103,33 +103,37 @@ content:
             - Naver Cloud 환경에서 인프라 구축 및 3tier(WEB-WAS-DB) 아키텍처 구성
           
             <br>  
-  - title: Skill # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Skill
+    layout: list
     content:
       - layout: left
         title: Backend
         sub_title:
+#        description: |
+#          - Java
+#          - Spring Boot, Spring Security, Spring Batch, Spring Data JPA/Redis, Spring MVC
+#          - JPA, QueryDSL, Hibernate
+#          - Gradle, Maven
+#          - IntelliJ, Eclipse
         description: |
-          - Java
-          - Spring Boot, Spring Security, Spring Batch, Spring Data JPA/Redis, Spring MVC
-          - JPA, QueryDSL, Hibernate
-          - Gradle, Maven
+          - Java (3)
+          - Spring Boot(3), Spring Security(2), Spring Batch(2), Redis(2)
+          - JPA(3), QueryDSL(2)
+          - Gradle(2), Maven(2)
           - IntelliJ, Eclipse
       - layout: left
         title: DevOps
         sub_title:
         description: |
-          - MySQL, MariaDB
-          - AWS RDS, EC2, S3
-          - Nginx, Tomcat
-          - Linux, Centos
+          - MySQL(3), MariaDB(3)
+          - AWS RDS(2), EC2(2), S3(2)
+          - Nginx(2), Tomcat(3)
+          - Linux(2), Centos
   #프로젝트
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-#        border: weak  # Value of `weak` will display a weak border below this item. # Any
-        # other value (or no value) means no border will be displayed
         title: Daily-Mission
         caption: 2023.05 ~ 진행중
         link: https://github.com/sungchulyun/Daily-mission_BE
@@ -138,13 +142,10 @@ content:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
             url: https://github.com/sungchulyun/Daily-mission_BE
-        #          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #            icon: fab fa-github
-        #            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           일일 미션 인증 프로젝트 <br>
           프론트 1명, 백엔드 1명으로 구성되어 백엔드 개발 중
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           
           기술 스택 :
           - Backend : `Java`, `SpringBoot`, `Spring Security`, `Spring Data JPA`, `Spring Batch`
@@ -163,6 +164,7 @@ content:
           - AWS Route53와 도메인 매핑을 통한 서비스 배포 및 SSL 인증 적용
           - Junit & Mockito를 활용한 단위 테스트 작성
           - Test Container를 사용한 통합 테스트 수행
+          - Github-Actions를 사용해 CI/CD 환경 구축
 #교육
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -181,6 +183,15 @@ content:
   - title: Awards # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-left
+        title: (주)아이티아이즈 PT 경진대회
+        sub_title: 장려상
+        caption: 2024.12.21
+        quote: >
+          Git 기반의 CI/CD 적용 사례 발표
+        description: |
+          53명의 참여 인원 중 6위 수상
+
       - layout: top-left
         title: 삼육대학교 SW 프로젝트 경진대회
         sub_title: 최우수상
