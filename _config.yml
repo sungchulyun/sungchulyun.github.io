@@ -51,19 +51,6 @@ about_content: |
   <br>
 
 content:
-  - title: Reason for application
-    layout: list
-    content:
-      - layout: left
-        title:
-        description: |
-          어렸을 적, 가지고 싶은 장난감을 중고 거래로 얻었던 따듯함을 잊지 않고 있습니다. 
-          중고나라는 제가 경험했던 것, 혹은 타인이 경험했던 가치를 전달하는 따듯한 소통의 장이라고 느꼈습니다.
-          그러나, 허위 매물 등으로 인한 사기 거래에 대한 일부 이용자들의 불안함은 없을 수 없다고 생각합니다.
-          백엔드 개발자로서, 거래 로그나 패턴을 분석해서 비정상적인 거래를 방지하여, 이용자들과의 신뢰를
-          튼튼히 하는데 기여하고 싶습니다.
-          업무를 수행하면서, 제가 느꼈던 플랫폼을 넘어선 유년시절의 따듯함을 다른 누군가에게도 선물하고 싶습니다.
-          <br>
   #경력
   - title: Career
     layout: list
@@ -169,14 +156,14 @@ content:
           - OAuth2, JWT, Spring Security를 활용한 인증, 인가 개발
           - Spring Batch와 Scheduler를 사용하여 미션 종료 및 강제 퇴장 기능 구현
           - AWS S3 & PresignedUrl을 통한 파일 업로드 기능 구현
-          - SSE 실시간 푸시 알림 기능 구현
+          - SSE & Redis pub/sub 실시간 푸시 알림 기능 구현
           
           주요 경험 : 
-          - PER 알고리즘을 통한 캐시 스탬피드 현상 완화
-          - AWS Route53와 도메인 매핑을 통한 서비스 배포 및 SSL 인증 적용
+          - PER 알고리즘 적용으로 평균 1800TPS -> 2400TPS 성능 향상 
+          - 비관적 락을 통한 동시성 이슈 해결
+          - AWS Route53 & AWS IAM(SSL)를 통한 백엔드 인프라 구축
           - Junit & Mockito를 활용한 단위 테스트 작성
           - Test Container를 사용한 통합 테스트 수행
-          - Github-Actions를 사용해 CI/CD 환경 구축
 #교육
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
