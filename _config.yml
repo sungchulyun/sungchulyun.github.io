@@ -7,10 +7,8 @@ version: 2
 
 # Personal info
 name: 윤 성 철
-title: Backend Developer
-email: proattacker641@gmail.com
-website : velog.io/@sung_c/posts
-#website: www.github.com/sungchulyun
+title: Developer
+email: sungchul05.dev@gmail.com
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -37,17 +35,16 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | 
-  안녕하세요, 개발자 윤성철입니다.
+  안녕하세요, 3년차 개발자 윤성철입니다.
   
-  레퍼런스와 강의를 통해 <mark>습득한 내용을 접목하는 것</mark>으로, 성장을 추구하기 위해 사이드 프로젝트를 기획했습니다.
-  그래서 퇴근 이후, '일일 미션' 인증 프로젝트를 개발하고 있습니다.
+  총 3번의 금융 도메인 프로젝트에서 2번의 은행권 프로젝트 경험을 했습니다. 특히, 은행 내부 배치와 DM, DW 프로세스를 몸소 겪으며 <mark>화면 개발</mark>, 
+  <mark>ETL 개발을 통한 데이터 이행</mark> 등 다양한 업무를 수행했습니다. 
   
-  조직 전체의 생산성 향상을 위해 <mark>문서화 하여 공유</mark>합니다. 
-  특히, Tomcat, Nginx와 같은 인프라 업무를 하는 3달 간 트러블 슈팅 가이드를 총 10건을 작성하여 공유한 적이 있습니다.
+  또한, 사내 솔루션 유지보수, 신사업 poc 업무를 수행하면서 문서화하고 공유하는 과정을 통해 팀 생산성 향상에 꾸준히 기여하고 있습니다. 
+  특히. 메일 서버 구축, CI/CD 환경 구축, Linux OS 설치 등 수행 과정에서의 트러블 슈팅 가이드를 작성하여 공유했습니다.
   
-  기술을 단순히 적용해보는 것을 넘어, <mark>깊이있게 학습</mark>하는데 집중하고 있습니다.
-  프로젝트 수행 간 학습하고 적용하여 관련한 30개의 글을 블로그에 포스팅하였습니다.
-  현재는 `Spring Batch`를 깊이 있게 학습하고 있습니다.
+  LLM 모델을 사용하여 생산성 향상을 높이는 방안을 지속적으로 고민합니다. 
+  작성된 코드 검증과 사고력 증진을 위해 주 5문제 이상 알고리즘 문제를 풀며 단련하고 있습니다.
   <br>
 
 content:
@@ -57,27 +54,28 @@ content:
     content:
       - layout: left
         title: (주)아이티아이즈
-        sub_title: Fintech 본부 솔루션사업부
+        sub_title: 금융사업본부 솔루션사업팀
         caption: 2024.01 ~ 현재
         quote: >
           연매출 600억의 금융 SI 기업
-        description: | 
+        description: |
           
-          **국채 거래 솔루션 유지보수(2024.10 ~ 현재)**
+          **EDW 재구축 프로젝트(2025.03 ~ 10)**
           
-            기술 스택 : `C#`, `Spring`, `MariaDB`, `Nginx`, `Tomcat`
-            
+            기술 스택 : `Oracle`, `TeraStream`, `MariaDB`, `Linux`
+          
+            업무 : 데이터 이행
+          
             주요 성과 : 
-            - 솔루션 서버 WEB-WAS 배포환경 구축
-            - 서버 성능 모니터링 기능 기존 비효율적인 DB 조회 방식 -> RabbitMQ 전환하여 불필요한 DB I/O 제거
-          
+            - 총 20TB, 200여 개의 테이블 데이터 이행
+
           <br>
           
           **우리은행 IFRS 재무회계시스템 노후 인프라 교체 프로젝트(2024.07 ~ 09)**
           
             기술 스택 : `NEXACRO`, `SpringBoot`, `MyBatis`, `Oracle`        
           
-            - 공시, 지분투자 등 보고서 화면 개발
+            업무 : 공시, 지분투자 등 보고서 화면 개발
           
             주요 성과 :
             - AS-IS의 30개의 보고서 파일을 TO-BE 전환 작업에서 7개로 간소화 
@@ -88,7 +86,7 @@ content:
           
             기술 스택 : `Java17`, `SpringBoot`, `MyBatis`, `MariaDB`    
           
-            - 토큰 지갑 생성, 조회, 폐기 및 토큰 배정 API 개발
+            업무 : 토큰 지갑 생성, 조회, 폐기 및 토큰 배정 API 개발
           
            주요 성과 :
             - 단건 INSERT, UPDATE 쿼리를 Bulk 전환으로 17.04초 -> 6.20초로 성능 개선
@@ -97,34 +95,23 @@ content:
             
           <br>
           
-          **아이티아이즈 채용서비스 구축 (2024.03 ~ 2024.04)**
-          
-            - Naver Cloud 환경에서 인프라 구축 및 3tier(WEB-WAS-DB) 아키텍처 구성
-          
-            <br>  
   - title: Skill
     layout: list
     content:
       - layout: left
         title: Backend
         sub_title:
-#        description: |
-#          - Java
-#          - Spring Boot, Spring Security, Spring Batch, Spring Data JPA/Redis, Spring MVC
-#          - JPA, QueryDSL, Hibernate
-#          - Gradle, Maven
-#          - IntelliJ, Eclipse
         description: |
-          - Java
-          - Spring Boot, Spring Security, Spring Batch, Redis
-          - JPA, QueryDSL
+          - Java, Javascript
+          - Spring Boot, Spring Security, Redis
+          - JPA, QueryDSL, Mybatis
           - Gradle, Maven
           - IntelliJ, Eclipse
       - layout: left
         title: DevOps
         sub_title:
         description: |
-          - MySQL, MariaDB
+          - MySQL, MariaDB, Oracle
           - AWS RDS, EC2, S3
           - Nginx, Tomcat
           - Linux, Centos
@@ -134,7 +121,7 @@ content:
     content:
       - layout: left
         title: Daily-Mission
-        caption: 2023.05 ~ 진행중
+        caption: 2024.05 ~ 2024.12
         link: https://github.com/sungchulyun/Daily-mission_BE
         link_text: https://github.com/sungchulyun/Daily-mission_BE
         additional_links:
@@ -143,7 +130,6 @@ content:
             url: https://github.com/sungchulyun/Daily-mission_BE
         quote: >
           일일 미션 인증 프로젝트 <br>
-          프론트 1명, 백엔드 1명으로 구성되어 백엔드 개발 중
         description: | 
           
           기술 스택 :
@@ -183,15 +169,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-left
-        title: (주)아이티아이즈 PT 경진대회
-        sub_title: 장려상
-        caption: 2024.12.21
-        quote: >
-          Git 기반의 CI/CD 적용 사례 발표
-        description: |
-          53명의 참여 인원 중 6위 수상
-
-      - layout: top-left
         title: 삼육대학교 SW 프로젝트 경진대회
         sub_title: 최우수상
         caption: 2022.09.27
@@ -228,6 +205,15 @@ content:
         title: 정보처리기사
         caption: 2023.06.09
           <br>
+#어학
+  - title: 공인영어 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: list
+        title: 토익 850
+        caption: 2026.02.08
+          <br>
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
